@@ -1,4 +1,3 @@
-README_TEXT = """
 # Number Guessing Game 🎯
 
 A simple command-line Python game where you try to guess a randomly chosen number between 1 and 100.
@@ -27,15 +26,3 @@ A simple command-line Python game where you try to guess a randomly chosen numbe
 ## Author
 
 Cameron McLaren
-"""
-
-# Save README.md file (if it doesn't exist yet)
-try:
-    with open("README.md", "x") as f:
-        f.write(README_TEXT)
-        print("README.md file created!")
-except FileExistsError:
-    print("README.md already exists.")
-
-# Print README content
-print(README_TEXT)
